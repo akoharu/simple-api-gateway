@@ -15,6 +15,6 @@ fastify.register(require('k-fastify-gateway'), {
 })
 
 // start the gateway HTTP server
-fastify.listen(8080, "0.0.0.0").then((address) => {
+fastify.listen(process.env.PORT, "0.0.0.0").then((address) => {
   console.log(`API Gateway listening on ${address}`)
 })
