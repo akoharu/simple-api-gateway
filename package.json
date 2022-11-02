@@ -13,7 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "fastify": "^3.9.2",
+    "fastify-multipart": "^5.4.0",
     "fastify-reply-from": "^3.5.0",
     "k-fastify-gateway": "^2.8.3"
   }
